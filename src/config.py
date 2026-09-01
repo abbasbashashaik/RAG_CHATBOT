@@ -2,7 +2,7 @@
 
 import os
 from pathlib import Path
-
+import streamlit as st
 from dotenv import load_dotenv
 
 
@@ -19,7 +19,7 @@ DOCUMENT_PATH = DATA_DIR / "dataset.txt"
 FAISS_INDEX_PATH = VECTOR_STORE_DIR / "faiss.index"
 METADATA_PATH = VECTOR_STORE_DIR / "metadata.pkl"
 
-GEMINI_API_KEY =os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY =os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 
 EMBEDDING_MODEL = "gemini-embedding-2"
 GENERATION_MODEL = "gemini-3.5-flash"
