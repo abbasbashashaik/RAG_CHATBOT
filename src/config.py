@@ -27,7 +27,7 @@ GENERATION_MODEL = "gemini-3.6-flash"
 CHUNK_SIZE = 720
 CHUNK_OVERLAP = 200
 
-TOP_K = 2
+TOP_K = 5
 
 
 if not GEMINI_API_KEY:
