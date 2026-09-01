@@ -1,0 +1,384 @@
+IT Customer Support Knowledge Base – SaaS Application, Accounts, Security, Billing, and Troubleshooting
+=======================================================================================================
+
+Purpose: Synthetic-style IT customer support Q&A dataset for RAG knowledge-base experimentation.
+Format: Each item contains a Query and an Answer. Content is generic and should be adapted to your actual product, policies, SLAs, security controls, and documentation.
+Total Q&A pairs: 126
+
+Q1: How do I reset my password?
+A1: On the sign-in page, select 'Forgot Password', enter your registered email address, and follow the password reset link sent to your inbox. The link may expire after a limited time.
+
+Q2: I did not receive the password reset email. What should I do?
+A2: Check your spam or junk folder, confirm that you entered the correct registered email address, and wait a few minutes. If it still does not arrive, contact support to verify your account.
+
+Q3: Can I change my registered email address?
+A3: Yes. Sign in to your account, open Profile or Account Settings, update the email address, and complete any verification required for the new address.
+
+Q4: How do I change my password?
+A4: Go to Account Settings, open Security or Password settings, enter your current password, and choose a new strong password.
+
+Q5: What makes a strong password?
+A5: Use a long, unique password with a mix of letters, numbers, and symbols. Avoid personal information and do not reuse passwords from other services.
+
+Q6: How do I enable two-factor authentication?
+A6: Open Account Settings, select Security, enable two-factor authentication, and follow the setup instructions using an authenticator app or another supported verification method.
+
+Q7: I lost access to my two-factor authentication device. What can I do?
+A7: Use backup codes if you saved them. Otherwise, contact support and complete the account ownership verification process before access can be restored.
+
+Q8: Why is my account locked?
+A8: Accounts may be locked after repeated failed sign-in attempts or suspicious activity. Wait for the temporary lock period to end or follow the account recovery instructions.
+
+Q9: How do I unlock my account?
+A9: Use the account recovery option if available. If the account remains locked, contact support with the registered email address and relevant error message.
+
+Q10: Can multiple users share one account?
+A10: For security and auditing, each user should normally have an individual account. Use your organization's user management features to add separate users.
+
+Q11: How do I add a new user to my organization?
+A11: An administrator can open User Management, select Add User, enter the user's details, assign an appropriate role, and send an invitation.
+
+Q12: How do I remove a user?
+A12: An administrator can open User Management, select the user, and choose Remove or Deactivate. Review data ownership and access dependencies before removing the account.
+
+Q13: What is the difference between an administrator and a standard user?
+A13: Administrators can usually manage users, settings, permissions, and billing, while standard users have access only to features allowed by their assigned role.
+
+Q14: How do I change a user's role?
+A14: Open User Management, select the user, choose the new role, and save the changes. Role changes may take effect immediately or after the user signs in again.
+
+Q15: Why can't a user access a feature?
+A15: The user's role or permissions may not include that feature. An administrator should review the assigned role, license, and organization policies.
+
+Q16: How do I update my profile information?
+A16: Go to Profile Settings, edit the required fields such as name or contact information, and save the changes.
+
+Q17: How do I change my time zone?
+A17: Open Preferences or Profile Settings and select the correct time zone. Some applications may require you to sign out and back in.
+
+Q18: How do I change the application language?
+A18: Go to Preferences or Language Settings and choose a supported language. The application may reload after the change.
+
+Q19: Why can't I sign in?
+A19: Verify your email and password, check whether your account is active, confirm your internet connection, and review any error message shown on the sign-in page.
+
+Q20: What should I do if I see an 'Invalid credentials' error?
+A20: Re-enter your email and password carefully, check for accidental spaces or incorrect keyboard layout, and reset your password if necessary.
+
+Q21: Why does the application keep signing me out?
+A21: This can happen because of session timeouts, browser privacy settings, cleared cookies, security policies, or multiple sign-ins. Check your browser settings and organization policies.
+
+Q22: How do I clear browser cache and cookies?
+A22: Open your browser settings, find Privacy or Browsing Data, select cached files and cookies, clear them, then restart the browser and sign in again.
+
+Q23: Which browsers are supported?
+A23: Use the latest supported versions of major browsers such as Chrome, Edge, Firefox, or Safari. Check your product documentation for the exact supported browser list.
+
+Q24: Why is the application loading slowly?
+A24: Slow performance can be caused by network latency, a weak internet connection, browser extensions, large datasets, or a temporary service issue. Try another network or browser and check service status.
+
+Q25: How can I check if there is a service outage?
+A25: Visit the product's official status page or service dashboard. If no incident is listed, contact support with the time of the issue and any error messages.
+
+Q26: What information should I include when reporting a problem?
+A26: Include a clear description, steps to reproduce, expected and actual results, error messages, screenshots without sensitive data, browser or device details, and the approximate time of the issue.
+
+Q27: How do I take a useful screenshot for support?
+A27: Capture the full error message and relevant page context, but hide passwords, tokens, payment details, and other sensitive information before sharing.
+
+Q28: Why is my page showing a blank screen?
+A28: Refresh the page, clear cache, disable conflicting browser extensions, try an incognito or private window, and test with another supported browser.
+
+Q29: Why is a feature not saving my changes?
+A29: Check for validation errors, required fields, permission restrictions, network interruptions, or session expiration. Copy any error message before retrying.
+
+Q30: How do I recover unsaved work?
+A30: Check whether the application has autosave, drafts, version history, or recovery features. If the page was closed unexpectedly, contact support with the approximate time and item affected.
+
+Q31: Can I undo a change?
+A31: If version history or an undo feature is available, use it as soon as possible. Some administrative or destructive actions may not be reversible.
+
+Q32: How do I search for records or tickets?
+A32: Use the global or page search bar and enter relevant keywords, IDs, names, or filters. Advanced search may allow date, status, owner, or tag filters.
+
+Q33: Why are my search results incomplete?
+A33: Results may be limited by permissions, filters, indexing delays, date ranges, or exact search syntax. Clear filters and try broader keywords.
+
+Q34: How do I export my data?
+A34: Open the relevant report or data page, choose Export or Download, select a supported format, and confirm the export settings.
+
+Q35: Why is my export taking a long time?
+A35: Large exports may be processed asynchronously. Keep the page open if required, check your email for a completion notification, and reduce the data range if possible.
+
+Q36: How do I import data?
+A36: Use the Import option, download the required template if available, validate your file format, map fields correctly, and review the import summary before completing the process.
+
+Q37: Why did my import fail?
+A37: Common causes include incorrect column names, invalid data types, missing required fields, duplicate records, file size limits, or unsupported file encoding.
+
+Q38: What file formats are supported for import?
+A38: Commonly supported formats include CSV and spreadsheet files, but support varies by product. Use the import screen or documentation to confirm the accepted formats.
+
+Q39: How do I resolve duplicate records?
+A39: Use duplicate detection tools if available, review matching records, merge or delete duplicates according to your organization's data policy, and prevent future duplicates through validation rules.
+
+Q40: Can deleted data be restored?
+A40: Restoration depends on the product and retention policy. Check the recycle bin, archive, or backup recovery options, and contact support promptly if the deletion was accidental.
+
+Q41: How long is deleted data retained?
+A41: Retention periods vary by plan, product settings, and organizational policy. Check your data retention configuration or contact an administrator.
+
+Q42: What is data retention?
+A42: Data retention defines how long information is stored before it is archived or permanently deleted according to product settings, legal requirements, or company policy.
+
+Q43: How do I create a backup?
+A43: Use the product's export or backup features, schedule backups if supported, store copies securely, and test restoration procedures regularly.
+
+Q44: Does the application automatically back up data?
+A44: Backup behavior depends on the service and plan. Review the product's backup and recovery documentation for the exact coverage and retention period.
+
+Q45: How do I restore data from a backup?
+A45: Use the supported recovery workflow or contact an administrator. Confirm the backup date and understand whether restoration overwrites existing data.
+
+Q46: How do I create a support ticket?
+A46: Open the Support or Help Center, select Create Ticket, choose the issue category and priority, provide a detailed description, attach safe supporting files, and submit.
+
+Q47: How can I check the status of my support ticket?
+A47: Open My Tickets or the support portal, locate the ticket number, and review its current status and any requests from the support team.
+
+Q48: What do support ticket statuses mean?
+A48: New or Open usually means the issue is awaiting action, In Progress means it is being investigated, Pending may mean more information is needed, and Resolved or Closed indicates the issue is considered complete.
+
+Q49: How do I add information to an existing ticket?
+A49: Open the ticket, add a comment or reply, include the requested details, and attach supporting files if needed.
+
+Q50: Why was my support ticket closed?
+A50: Tickets may close after resolution, inactivity, duplicate detection, or because the request was handled elsewhere. Reopen the ticket if the portal allows, or create a follow-up ticket.
+
+Q51: How do I escalate a support issue?
+A51: Reply to the existing ticket with the business impact, urgency, affected users, and deadline. Avoid creating duplicate tickets unless instructed.
+
+Q52: What is the difference between incident priority and severity?
+A52: Severity describes the technical or business impact, while priority determines how urgently the issue should be handled. Organizations may define these terms differently.
+
+Q53: What should I do during a critical production issue?
+A53: Check the service status, collect error details and timestamps, notify your internal incident process, and contact the appropriate support channel with the affected service and business impact.
+
+Q54: How do I enable email notifications?
+A54: Open Notification Settings, choose the events you want to receive, select delivery methods, and save your preferences.
+
+Q55: Why am I not receiving notifications?
+A55: Check notification preferences, spam folders, email rules, device permissions, and whether the relevant event actually triggered a notification.
+
+Q56: How do I disable notifications?
+A56: Open Notification Settings and turn off selected notification categories or channels. Some mandatory security notifications may remain enabled.
+
+Q57: Can I receive notifications in a collaboration tool?
+A57: If an integration is available, an administrator can connect the collaboration tool and configure which events should send messages.
+
+Q58: How do integrations work?
+A58: Integrations connect the application with other services using approved connectors, APIs, webhooks, or authentication credentials.
+
+Q59: Why is my integration disconnected?
+A59: Credentials may have expired, permissions may have changed, the external service may be unavailable, or an administrator may have disabled the connection.
+
+Q60: How do I reconnect an integration?
+A60: Open the integration settings, select the disconnected service, authenticate again if requested, review permissions, and save the connection.
+
+Q61: What is an API key?
+A61: An API key is a credential used to identify or authorize software requests. Treat it like a password and never share it publicly.
+
+Q62: How do I create an API key?
+A62: An authorized user can open Developer or API Settings, create a key with the minimum required permissions, copy it securely, and store it in a protected secret manager.
+
+Q63: What should I do if an API key is exposed?
+A63: Revoke or rotate the key immediately, create a replacement, update affected applications, review access logs, and follow your organization's security incident process.
+
+Q64: Why am I receiving an API authentication error?
+A64: Check the credential, token expiration, request headers, environment configuration, permissions, and whether the correct endpoint is being used.
+
+Q65: What does an API rate limit mean?
+A65: A rate limit restricts how many requests can be made within a time period to protect service reliability. Reduce request frequency and follow retry guidance.
+
+Q66: How do I handle an API rate limit error?
+A66: Use exponential backoff, respect any Retry-After guidance, reduce unnecessary requests, batch operations when supported, and avoid immediate repeated retries.
+
+Q67: What is a webhook?
+A67: A webhook sends an automatic HTTP request to a configured endpoint when a specific event occurs.
+
+Q68: Why are my webhooks failing?
+A68: Check the endpoint URL, network reachability, TLS certificate, authentication, expected response status, timeout settings, and webhook delivery logs.
+
+Q69: How do I test an API or webhook integration?
+A69: Use a sandbox or test environment when available, send a limited test request, verify logs and responses, and avoid using production credentials unnecessarily.
+
+Q70: How do I create a report?
+A70: Open Reports, select Create Report, choose a data source and fields, apply filters, preview the results, and save or export the report.
+
+Q71: Why are report numbers different from what I expected?
+A71: Check the date range, time zone, filters, data refresh timing, permissions, and whether the report uses aggregated or raw data.
+
+Q72: How often is dashboard data refreshed?
+A72: Refresh frequency depends on the application and data source. Some dashboards update in real time, while others refresh on a scheduled interval.
+
+Q73: Why is my dashboard not showing new data?
+A73: The data source may still be processing, the refresh may have failed, filters may exclude the new records, or your permissions may limit visibility.
+
+Q74: How do I share a dashboard?
+A74: Use the Share option, choose specific users or groups, set the correct access level, and avoid sharing sensitive data publicly.
+
+Q75: How do I manage permissions for shared resources?
+A75: Open the resource sharing settings, review current users and groups, assign Viewer, Editor, or other supported access levels, and remove unnecessary access.
+
+Q76: What is single sign-on (SSO)?
+A76: Single sign-on allows users to authenticate through a central identity provider instead of maintaining a separate password for every application.
+
+Q77: Why is SSO not working?
+A77: Check the identity provider status, user assignment, domain configuration, certificate validity, time synchronization, and application SSO settings.
+
+Q78: How do I update SSO certificates?
+A78: An authorized administrator should upload or configure the new certificate before the old one expires, verify metadata and endpoints, and test sign-in.
+
+Q79: What is user provisioning?
+A79: User provisioning automatically creates, updates, or deactivates application accounts based on identity information from an external directory or identity provider.
+
+Q80: Why was a user not provisioned automatically?
+A80: Check directory synchronization, user assignment, attribute mapping, license availability, provisioning logs, and whether the user meets activation requirements.
+
+Q81: How do I deactivate a former employee's access?
+A81: An administrator should disable or remove the user, revoke active sessions and credentials where supported, transfer owned resources if needed, and follow offboarding policy.
+
+Q82: How can I review login activity?
+A82: Open Security or Audit Logs and filter by user, date, IP information if available, or event type. Investigate unfamiliar activity promptly.
+
+Q83: What should I do if I suspect unauthorized account access?
+A83: Change your password, revoke active sessions if available, enable two-factor authentication, review connected devices or API credentials, and report the incident to your security team.
+
+Q84: How do I sign out from all devices?
+A84: Open Security Settings and use Sign Out All Sessions or a similar option. You may need to sign in again on trusted devices.
+
+Q85: Why am I seeing a security warning?
+A85: Security warnings may appear because of suspicious sign-ins, an expired certificate, an untrusted connection, or a policy violation. Read the exact warning and do not bypass it blindly.
+
+Q86: How is customer data protected?
+A86: Protection typically includes access controls, encryption, monitoring, backups, and operational security processes. Exact controls depend on the service and contract.
+
+Q87: Is data encrypted?
+A87: Many services encrypt data in transit and may encrypt stored data. Confirm the specific encryption scope and key management model in the product security documentation.
+
+Q88: What is encryption in transit?
+A88: Encryption in transit protects data while it moves between your device and a service, typically using secure protocols such as HTTPS and TLS.
+
+Q89: What is encryption at rest?
+A89: Encryption at rest protects stored data on disks, databases, or backups using cryptographic controls.
+
+Q90: How do I update my billing information?
+A90: An authorized billing administrator can open Billing Settings, edit the billing contact or payment information, and save the changes.
+
+Q91: Where can I download invoices?
+A91: Open Billing or Subscription History, select the required billing period, and download the invoice or receipt if available.
+
+Q92: Why was my payment declined?
+A92: The payment method may have expired, exceeded limits, been blocked by the provider, or contained incorrect information. Verify details or contact the payment provider.
+
+Q93: How do I update my subscription plan?
+A93: Open Subscription or Billing Settings, review available plans, select the new plan, confirm pricing and effective date, and complete the change.
+
+Q94: Can I cancel my subscription?
+A94: An authorized billing administrator can use the cancellation workflow in Subscription Settings. Review the end date, data retention, and export options before confirming.
+
+Q95: What happens to my data after cancellation?
+A95: Data handling depends on the service's retention policy and your plan. Export important information before cancellation and confirm the applicable retention period.
+
+Q96: How do I request a refund?
+A96: Review the refund policy and contact billing support with the account details, invoice reference, reason for the request, and relevant dates.
+
+Q97: Why was I charged twice?
+A97: First check for duplicate invoices, multiple subscriptions, pending versus completed transactions, or duplicate payment attempts. Contact billing support with transaction references.
+
+Q98: How do I update the company name on an invoice?
+A98: Open Billing Profile if self-service changes are supported, update the legal billing details, and contact billing support if a previously issued invoice must be corrected.
+
+Q99: What is a maintenance window?
+A99: A maintenance window is a planned period for updates, infrastructure work, or service changes that may affect availability or performance.
+
+Q100: How will I know about planned maintenance?
+A100: Check the status page, service announcements, email notifications, or administrator communications. Planned maintenance is often announced in advance.
+
+Q101: Why did the application change after an update?
+A101: Updates may introduce new features, interface changes, security fixes, or deprecated functionality. Review release notes and update guides.
+
+Q102: How do I find release notes?
+A102: Open the Help Center or product documentation and look for Release Notes, What's New, or Product Updates.
+
+Q103: Can I roll back to an older version?
+A103: Rollback availability depends on the product. Cloud services may not support customer-controlled rollbacks, while configurable releases may offer limited rollback options.
+
+Q104: Why is a feature marked deprecated?
+A104: A deprecated feature is still available temporarily but is planned for replacement or removal. Review migration guidance and update workflows before the retirement date.
+
+Q105: How do I request a new feature?
+A105: Use the product feedback channel or contact support with the use case, business value, current workaround, and examples of the desired behavior.
+
+Q106: How do I report a bug?
+A106: Provide reproducible steps, expected behavior, actual behavior, error messages, screenshots or logs without secrets, environment details, and the time the issue occurred.
+
+Q107: What is the difference between a bug and a feature request?
+A107: A bug is behavior that does not work as documented or intended. A feature request asks for new or changed functionality.
+
+Q108: How do I collect browser console logs?
+A108: Open browser developer tools, select the Console, reproduce the issue, and copy relevant errors. Remove tokens, personal data, or other sensitive information before sharing.
+
+Q109: How do I collect network logs for support?
+A109: Use browser developer tools or approved diagnostic tools to capture the affected request. Sanitize authentication headers, cookies, tokens, and personal information before sharing.
+
+Q110: Why is my file upload failing?
+A110: Check file size, file type, internet stability, permissions, browser restrictions, and available storage. Try a smaller file or another supported browser.
+
+Q111: What is the maximum upload size?
+A111: Maximum size depends on the product, plan, and upload type. Check the upload screen or documentation for the current limit.
+
+Q112: Why can't I download a file?
+A112: Check your permissions, browser download settings, available disk space, antivirus restrictions, network connectivity, and whether the file still exists.
+
+Q113: How do I troubleshoot an application error code?
+A113: Record the exact error code and message, search the knowledge base for that code, retry the action once if safe, and provide the code to support if the issue continues.
+
+Q114: Why am I getting a 'Permission denied' message?
+A114: Your role may not have the required access, the resource may belong to another organization, or a policy may block the action. Ask an administrator to review permissions.
+
+Q115: What should I do if the mobile app crashes?
+A115: Restart the app, update it to the latest version, restart the device, check available storage, and reinstall only after confirming whether local data is safely synchronized.
+
+Q116: Why is the mobile app not syncing?
+A116: Check network connectivity, app version, account sign-in status, background data restrictions, and whether the service has a current incident.
+
+Q117: How do I update the application?
+A117: Use the official app store, software updater, or administrator-managed deployment process. Avoid installing software from untrusted sources.
+
+Q118: How do I contact customer support?
+A118: Use the official Help Center, support portal, or approved support email channel. Include the information needed to identify the issue without sharing passwords or secrets.
+
+Q119: What information should I never send to support?
+A119: Never send passwords, full authentication tokens, private keys, complete payment card details, or other secrets. Redact sensitive information from screenshots and logs.
+
+Q120: How can I improve the speed of support resolution?
+A120: Provide a clear problem statement, exact steps to reproduce, business impact, timestamps, affected users, error messages, and relevant sanitized screenshots or logs.
+
+Q121: What are business hours for support?
+A121: Support hours depend on your plan, region, and service agreement. Check your support entitlement or official support policy.
+
+Q122: How do I know my support plan?
+A122: An account owner or administrator can review the subscription or support section of the account, or contact billing support.
+
+Q123: What is an SLA?
+A123: A service-level agreement defines agreed service commitments such as response targets, availability goals, or support coverage. Exact terms depend on the contract.
+
+Q124: Does an SLA guarantee immediate resolution?
+A124: No. Response targets and resolution targets are different. Complex issues may require investigation, third-party involvement, or engineering changes.
+
+Q125: How do I close my account permanently?
+A125: Follow the account deletion workflow or contact support if deletion requires verification. Export needed data and understand retention requirements before proceeding.
+
+Q126: How do I request a copy of my data?
+A126: Use the account export feature if available or submit a data request through the approved privacy or support channel.

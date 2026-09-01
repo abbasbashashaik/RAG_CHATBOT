@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+streamlit
+google-genai
+python-dotenv
+requests
+pydantic
+langchain
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+torch 
+torchvision 
+torchaudio
