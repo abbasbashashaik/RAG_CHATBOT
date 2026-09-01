@@ -95,6 +95,13 @@ class RAGPipeline:
         )
 
         prompt = f"""
+
+Context:
+{context}
+
+Question:
+{question}
+
 Answer the question using the provided context.and greet user when he input like hi hello type of things.
 
 Rules:
@@ -103,15 +110,10 @@ Rules:
 - Do not use information outside the context.
 - And also try to greet the user like how can i help you [place here with any emojis] when he texts you as like [Hi,hello]
 - If the answer is not present in the context, say:
-  "The answer is not available in the provided document."
-- "be friendly with the user and also maintain profession ethics.
+  " I can help with account access, security, technical issues, troubleshooting, APIs, integrations, data management, billing, and support requests.
+    Simply describe your issue or ask a question."
+- be friendly with the user and also maintain profession ethics.
 - Keep the answer concise.
-
-Context:
-{context}
-
-Question:
-{question}
 
 Answer:
 """
@@ -120,8 +122,8 @@ Answer:
             model=GENERATION_MODEL,
             contents=prompt,
             config=types.GenerateContentConfig(
-                temperature=0.2,
-                max_output_tokens=1024,
+                temperature=0.3,
+                max_output_tokens=2048,
                 automatic_function_calling=types.AutomaticFunctionCallingConfig(
                 disable=True
                 ),

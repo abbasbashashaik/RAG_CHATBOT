@@ -24,8 +24,8 @@ GEMINI_API_KEY =os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 EMBEDDING_MODEL = "gemini-embedding-2"
 GENERATION_MODEL = "gemini-3.6-flash"
 
-CHUNK_SIZE = 720
-CHUNK_OVERLAP = 200
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 150
 
 TOP_K = 5
 

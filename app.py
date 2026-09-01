@@ -133,13 +133,18 @@ def get_response(question):
         "hey",
         "good morning",
         "good afternoon",
-        "good evening"
+        "good evening",
+        "goodmorning",
+        "goodafternoon",
+        "goodevening",
+
     ]
 
     thanks = [
         "thanks",
         "thank you",
         "thx"
+        "thankyou"
     ]
 
     goodbye = [
@@ -195,7 +200,40 @@ def main():
 
     st.title("💬 Customer Support Agent")
     st.caption("I'm an Assistant to help you on troubleshooting")
+    with st.container(height=120, border=True):
+        st.markdown("""👋 **Welcome to IT Support Assistant!**
 
+    I can help you with common IT and SaaS support questions, including:
+        """)
+        st.markdown("🔐 Account & Security — Login, passwords, account access, and security")
+        st.markdown("👥 User & Permissions — Users, roles, and access issues")
+        st.markdown("🛠️ Technical Troubleshooting — Errors, slow performance, browser, and app issues")
+        st.markdown("📁 Data & Files — Import, export, backups, uploads, and downloads")
+        st.markdown("🔌 APIs & Integrations — API keys, authentication, webhooks, and integrations")
+        st.markdown("📊 Reports & Dashboards — Reports, data visibility, and dashboard issues")
+        st.markdown("🎫 Support & Incidents — Tickets, escalations, bugs, and critical issues")
+        st.markdown("💳 Billing & Subscriptions — Payments, invoices, plans, and subscriptions")
+        st.markdown("🔄 Updates & Maintenance — Product updates, maintenance, and release information")
+    with st.sidebar:
+        with st.container(height=500,width=300,border=True):
+            st.header("Try these sample questions😊")
+            st.markdown("""  
+    Try asking:
+    
+    How do I reset my password?
+
+    Why can't I log in?
+
+    How do I create an API key?
+
+    Why is my application running slowly?
+
+    How do I export my data?
+
+    How do I create a support ticket?
+
+    Simply describe your issue or ask a question to get started.
+            """)
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
@@ -233,9 +271,7 @@ def main():
 
     with st.sidebar:
 
-        st.header("Chat")
-
-        if st.button("🗑️ Clear Chat"):
+        if st.button("🗑️ click to Clear Chat"):
 
             st.session_state.messages = []
 
@@ -247,7 +283,7 @@ def main():
 
             st.markdown(message["content"])
 
-    if question := st.chat_input("Ask question about the story"):
+    if question := st.chat_input("Describe your issue and Ask your Question..."):
 
         with st.chat_message("user"):
 
