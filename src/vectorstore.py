@@ -2,7 +2,7 @@
 
 import pickle
 from pathlib import Path
-
+import streamlit as st
 import faiss
 import numpy as np
 
@@ -29,7 +29,7 @@ def create_vector_store(
     with open(metadata_path, "wb") as file:
         pickle.dump(chunks, file)
 
-
+@st.cache_resource
 def load_vector_store(
     index_path: Path,
     metadata_path: Path,

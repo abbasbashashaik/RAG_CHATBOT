@@ -22,7 +22,7 @@ METADATA_PATH = VECTOR_STORE_DIR / "metadata.pkl"
 GEMINI_API_KEY =os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
 
 EMBEDDING_MODEL = "gemini-embedding-2"
-GENERATION_MODEL = "gemini-3.5-flash"
+GENERATION_MODEL = "gemini-3.6-flash"
 
 CHUNK_SIZE = 720
 CHUNK_OVERLAP = 200
