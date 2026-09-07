@@ -184,10 +184,8 @@ def get_response(question):
                     "Please try again later."
                 )
 
-            return (
-                "⚠️ Sorry, I couldn't process your request right now. "
-                "Please try again later."
-            )
+            # TEMPORARY: Show actual error for debugging
+            return f"⚠️ Error: {str(e)}"
 
 
 def main():
