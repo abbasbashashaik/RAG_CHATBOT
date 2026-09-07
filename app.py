@@ -143,7 +143,7 @@ def get_response(question):
     thanks = [
         "thanks",
         "thank you",
-        "thx"
+        "thx",
         "thankyou"
     ]
 
