@@ -1,4 +1,5 @@
 chatbot Link: https://customersupportbot-u.streamlit.app/
+Note: sometimes it may not work due to quota limitation error because of using free LLM models.
 
 Project Title: Customer Support chatbot
 
